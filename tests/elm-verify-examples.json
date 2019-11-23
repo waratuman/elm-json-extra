@@ -1,0 +1,8 @@
+{
+  "root": "../src",
+  "tests": [
+    "./README.md",
+    "Json.Decode.Extra",
+    "Json.Encode.Extra"
+  ]
+}
