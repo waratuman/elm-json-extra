@@ -3,7 +3,7 @@
     "name": "waratuman/elm-json-extra",
     "summary": "Extra JSON Encode / Decode functionality",
     "license": "BSD-3-Clause",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "exposed-modules": [
         "Json.Decode.Extra",
         "Json.Encode.Extra"
