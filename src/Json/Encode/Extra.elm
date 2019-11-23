@@ -1,9 +1,10 @@
-module Json.Encode.Extra exposing
-    ( iso8601
-    , maybe
-    , posix
-    , timezone
-    )
+module Json.Encode.Extra exposing (iso8601, posix, timezone, maybe)
+
+{-| Helper functions for the `Json.Decode` module of `elm/json`.
+
+@docs iso8601, posix, timezone, maybe
+
+-}
 
 import Iso8601
 import Json.Encode exposing (..)

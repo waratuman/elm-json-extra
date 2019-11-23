@@ -1,10 +1,10 @@
-module Json.Decode.Extra exposing
-    ( date
-    , iso8601
-    , nothing
-    , posix
-    , timezone
-    )
+module Json.Decode.Extra exposing (nothing, date, iso8601, posix, timezone)
+
+{-| Helper functions for the `Json.Decode` module of `elm/json`.
+
+@docs nothing, date, iso8601, posix, timezone
+
+-}
 
 import Dict
 import Iso8601
@@ -14,6 +14,13 @@ import Time.Extra as Time
 import TimeZone
 
 
+{-| Decode a JSON value and do nothing with it.
+
+    import Json.Decode exposing (..)
+
+    decodeString nothing "{}" --> Ok ()
+
+-}
 nothing : Decoder ()
 nothing =
     value |> map (\_ -> ())
