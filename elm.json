@@ -1,6 +1,6 @@
 {
     "type": "package",
-    "name": "waratuman/elm-json-extra",
+    "name": "waratuman/json-extra",
     "summary": "Extra JSON Encode / Decode functionality",
     "license": "BSD-3-Clause",
     "version": "1.0.0",
