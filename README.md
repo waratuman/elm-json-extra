@@ -20,5 +20,4 @@ exampleEncoder : Posix -> Encode.Value
 exampleEncoder createdAt =
     Encode.object
         [ ( "created_at", Encode.iso8601 createdAt ) ]
-    -->
 ```
